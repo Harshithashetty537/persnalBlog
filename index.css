@@ -1,0 +1,48 @@
+.parentdiv {
+  padding: 10px 100px 100px 100px;
+
+  
+}
+.child1 {
+  text-align: center;
+}
+.allBlogs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.CreateButton {
+  height: 40px;
+  border-radius: 20px;
+  color: white;
+  background-image: linear-gradient(to right, red , rgb(70, 227, 238));
+  border: none;
+}
+
+.Blogs {
+  border: none;
+  border-radius: 5px;
+  width: 220px;
+  height: 150px;
+  background-color: rgba(210, 219, 230, 0.842);
+  padding: 20px;
+
+}
+
+.container{
+ margin: 50px;
+}
+.editButton{
+  display: flex;
+   flex-Wrap: wrap;
+  gap:5px;
+  margin-bottom: 10px;
+  border: transparent;
+}
+.discription{
+  width: 150px;           
+  white-space: nowrap;    
+  overflow: hidden;       
+  text-overflow: ellipsis;
+  display: inline-block
+}
